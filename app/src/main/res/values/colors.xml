@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3fb54f</color>
+    <color name="colorPrimaryDark">#3f9f30</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorSection">#4dd0e1</color>
+    <color name="colorSectionGrad">#78ced9</color>
+    <color name="colorSectionGradTwo">#1de9b6</color>
+    <color name="colorSectionRandom">#b646e6</color>
+    <color name="colorSectionRandomGrad">#d978c4</color>
+    <color name="colorSectionRandomGradTwo">#d49494</color>
+    <color name="colorSectionRandomTwo">#f5ff36</color>
+    <color name="colorSectionRandomTwoGrad">#d5dc4a</color>
+    <color name="colorSectionRandomTwoGradTwo">#ffc95d</color>
+    <color name="colorSectionRandomThree">#746dfc</color>
+    <color name="colorSectionRandomThreeGrad">#6c4adc</color>
+    <color name="colorSectionRandomThreeGradTwo">#85d4ff</color>
+    <color name="colorSectionRandomFour">#f97286</color>
+    <color name="colorSectionRandomFourGrad">#cc4952</color>
+    <color name="colorSectionRandomFourGradTwo">#ff94ab</color>
+    <color name="colorWeb">#2327f9</color>
+
+</resources>

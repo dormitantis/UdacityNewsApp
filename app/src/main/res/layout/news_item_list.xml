@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/section_textview"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/section_textview_height"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="3"
+        android:background="@drawable/section_background"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/section_text_size"
+        tools:text="Section" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginHorizontal="@dimen/article_margin"
+        android:layout_weight="8"
+        android:orientation="vertical"
+        android:paddingVertical="@dimen/article_padding">
+
+        <TextView
+            android:id="@+id/title_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-medium"
+            android:maxLines="3"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/title_text_size"
+            tools:text="News headline\nNews headline" />
+
+        <TextView
+            android:id="@+id/author_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingBottom="@dimen/author_padding_bottom"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/author_text_size"
+            android:textStyle="italic"
+            tools:text="Authors" />
+
+        <TextView
+            android:id="@+id/web_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@color/colorWeb"
+            android:textSize="@dimen/web_text_size"
+            tools:text="http:// " />
+
+    </LinearLayout>
+</LinearLayout>
